@@ -1,4 +1,4 @@
-const generateMarkdown = require("./generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
@@ -63,14 +63,36 @@ function promptUser() {
 
 // function to write README file
 function writeToFile(generateMarkdown, data) {
+    }
+    // function generateMarkdown(data) {
+    //     return `# ${data.title}
+    //     ## Description
+    //     The purpose of this project is ${data.description}
+    //     ## Table of Contents
+    //     ${data.contents}
+    //     ## Installation
+    //     You can install this project by ${data.installation}
+    //     ## Usage
+    //     To use this project, ${data.usage}
+    //     ## License
+    //     This project is licensed by ${data.license}
+    //     ## Contributing
+    //     ${data.contributing}
+    //     ## Tests
+    //     ${data.tests}
+    //     ## Questions
+    //     You can contact me by reaching out to my GitHub: ${data.username}
+    //     Or you can email me: ${data.email}
+    //   `;
+    //   }
 
-}
 
 // function to initialize program
 async function init() {
+    console.log("async func")
     try {
-        const answer = await questions;
-        const markdown = generateMarkdown(data);
+        const answer = await promptUser();
+        const markdown = generateMarkdown(answer);
         await writeFileAsync("readme.md", markdown);
         console.log("success!");
     } catch(err) {
