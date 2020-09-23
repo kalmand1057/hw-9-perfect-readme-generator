@@ -2,7 +2,12 @@
 const questions = [
     {
         type: "input",
-        message: "Describe this project.",
+        message: "What is the title of the project?",
+        name: "title",
+    },
+    {
+        type: "input",
+        message: "Describe this project",
         name: "description",
     },
     {
@@ -12,33 +17,38 @@ const questions = [
     },
     {
         type: "input",
-        message: "How to install.",
+        message: "How to install",
         name: "installation",
     },
     {
         type: "input",
-        message:"How to use.",
+        message:"How to use",
         name: "usage",
     },
     {
         type: "input",
-        message: "Choose a license for your project.",
+        message: "Choose a license for your project",
         name: "license",
     },
     {
         type: "input",
-        message: "How to contribute?",
+        message: "How to contribute",
         name: "contributing",
     },
     {
         type: "input",
-        message: "How is the test running?",
+        message: "How to run a test",
         name: "tests",
     },
     {
         type:"input",
-        message:,
-        name: "questions",
+        message: "What is your GitHub username?",
+        name: "username",
+    },
+    {
+        type:"input",
+        message: "What is your email address?",
+        name: "email",
     }
 ];
 
@@ -47,8 +57,15 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
-
+async function init() {
+    try {
+        const answer = await questions;
+        const html = generateMarkdown(data);
+        await writeFileAsync("", );
+        console.log("success!");
+    } catch(err) {
+        console.log(err);
+    }
 }
 
 // function call to initialize program
