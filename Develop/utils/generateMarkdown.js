@@ -6,18 +6,18 @@ function generateMarkdown(data) {
   # Table of Contents
   ${data.contents}
   # Installation
-  You can install this project by${data.installation}
+  You can install this project by ${data.installation}
   # Usage
   To use this project, ${data.usage}
   # License
   This project is licensed by ${data.license}
   # Contributing
-  ${contributing}
+  ${data.contributing}
   # Tests
-  ${tests}
+  ${data.tests}
   # Questions
-  You can contact me by reaching out to my GitHub: ${username}
-  Or you can email me: ${email}
+  You can contact me by reaching out to my GitHub: ${data.username}
+  Or you can email me: ${data.email}
 `;
 }
 
