@@ -1,42 +1,42 @@
 // array of questions for user
 const questions = [
     {
-        type:,
-        message:,
+        type: "input",
+        message: "Describe this project.",
         name: "description",
     },
     {
-        type:,
-        message:,
+        type: "input",
+        message: "Enter table of contents",
         name: "contents",
     },
     {
-        type:,
-        message:,
+        type: "input",
+        message: "How to install.",
         name: "installation",
     },
     {
-        type:,
-        message:,
+        type: "input",
+        message:"How to use.",
         name: "usage",
     },
     {
-        type:,
-        message:,
+        type: "input",
+        message: "Choose a license for your project.",
         name: "license",
     },
     {
-        type:,
-        message:,
+        type: "input",
+        message: "How to contribute?",
         name: "contributing",
     },
     {
-        type:,
-        message:,
+        type: "input",
+        message: "How is the test running?",
         name: "tests",
     },
     {
-        type:,
+        type:"input",
         message:,
         name: "questions",
     }
