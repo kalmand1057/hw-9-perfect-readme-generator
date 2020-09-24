@@ -10,6 +10,7 @@
   <li>Tests</li>
   <li>Questions</li>
   </ul>
+  
   ## Installation
   You can install this project by opening the project in your preferred code editor, make sure node is installed, as well as inquirer, and then run the project.
 
