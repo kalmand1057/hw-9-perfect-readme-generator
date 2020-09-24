@@ -8,11 +8,11 @@
   # Usage
   To use this project, usage
   # License
-  This project is licensed by license
+  This project is licensed by project
   # Contributing
   contribution
   # Tests
-  running test
+  testing
   # Questions
   You can contact me by reaching out to my GitHub: kalmand1057
   Or you can email me: kalenaalmand@gmail.com
