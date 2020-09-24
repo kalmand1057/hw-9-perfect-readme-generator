@@ -30,11 +30,6 @@ function promptUser() {
         },
         {
             type: "input",
-            message:"USAGEURL: You can paste a url of a video showing how to use the project here:",
-            name: "usageurl",
-        },
-        {
-            type: "input",
             message: "LICENSE: Which license will you be using; GNU General Publice, MIT, or Open Software?",
             name: "license",
         },

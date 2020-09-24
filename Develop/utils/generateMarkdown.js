@@ -14,7 +14,6 @@ function generateMarkdown(data) {
   You can install this project by ${data.installation}
   ## Usage
   To use this project, ${data.usage}
-  You can watch a video on a demonstration of the project here ${usageurl}
   ## License
   This project is licensed by ${data.license}
   ## Contributing

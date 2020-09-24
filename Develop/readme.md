@@ -1,6 +1,6 @@
-# Project Title!
+# Creating a Great README
   ## Description
-  The purpose of this project is describe project here
+  The purpose of this project is to help the user generate a great README to spend more time on the actual project.
   ## Table of Contents
   -Installation
   -Usage
@@ -9,15 +9,15 @@
   -Tests
   -Questions
   ## Installation
-  You can install this project by installation instructions
+  You can install this project by opening the project in your preferred code editor, make sure node is installed, as well as inquirer, and then run the project.
   ## Usage
-  To use this project, describe how to use project here
+  To use this project, simply answer all the prompted questions, then copy the markdown file labeled as "readme.md" once it's generated!
   ## License
-  This project is licensed by pick license here
+  This project is licensed by GNU General Public
   ## Contributing
-  When contributing to the project, describe how to contribute and any guidelines
+  When contributing to the project, Make sure to contact me by GitHub or email for any questions.
   ## Tests
-  You can run a test by run test description
+  You can run a test by installing said programs in usage and typing "node index.js" in terminal.
   ## Questions
   You can contact me by reaching out to my GitHub: https://github.com/kalmand1057
   Or you can email me: kalenaalmand@gmail.com
